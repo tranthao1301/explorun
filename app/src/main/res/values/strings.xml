@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ExploRun</string>
+    <string name="title_activity_maps">ExploRun</string>
+    <string name="action_settings">Settings</string>
+    <string name="stadtteil">Stadtteil</string>
+    <string name="Ja">Ja</string>
+    <string name="distanz_in_km">Distanz (in km)</string>
+    <string name="weniger_als_5">weniger als 5</string>
+    <string name="mehr_als_10">mehr als 10</string>
+    <string name="beleuchtung">Beleuchtung</string>
+    <string name="nein">Nein</string>
+    <string name="am_wasser">Am Wasser</string>
+    <string name="mit_steigung">Mit Steigung</string>
+    <string name="filter">Filter</string>
+    <string name="activity_title_home">Routes</string>
+    <string name="msg_no_notes">No Routes found!</string>
+    <string name="lbl_new_note_title">New Route</string>
+    <string name="lbl_edit_note_title">Edit Route</string>
+    <string name="hint_enter_note">Enter the distance!</string>
+    <string name="add_string">Add</string>
+    <string name="find_text">Find</string>
+    <string name="delete_text">Delete</string>
+    <string name="update_text">Update</string>
+    <string name="Load">Load Routes</string>
+    <string name="stitch_client_app_id">explorun-gwkae</string>
+    <string name="google_client_id">86217296735-7ik2ch6ri02k3l00sr11rmke37qfidj4.apps.googleusercontent.com</string>
+
+</resources>

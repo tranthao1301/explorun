@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterActivity">
+
+    <TextView
+        android:id="@+id/distanz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distanz in km"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/kurz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distanz"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="weniger als 5" />
+
+    <CheckBox
+        android:id="@+id/mittel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distanz"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/kurz"
+        android:text="5 bis 10 " />
+
+    <CheckBox
+        android:id="@+id/lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distanz"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/mittel"
+        android:layout_marginLeft="10dp"
+        android:text="mehr als 10" />
+
+    <TextView
+        android:id="@+id/licht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kurz"
+        android:text="Beleuchtung"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/mitlicht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/licht"
+        android:layout_marginLeft="10dp"
+        android:text="Ja"/>
+
+    <CheckBox
+        android:id="@+id/ohnelicht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/licht"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/mitlicht"
+        android:text="Nein" />
+
+    <TextView
+        android:id="@+id/wasser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mitlicht"
+        android:text="am Wasser"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/amwasser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wasser"
+        android:layout_marginLeft="10dp"
+        android:text="Ja" />
+
+    <CheckBox
+        android:id="@+id/ohnewasser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wasser"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/amwasser"
+        android:text="Nein" />
+
+    <TextView
+        android:id="@+id/steigung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amwasser"
+        android:text="mit Steigung"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/mitsteigung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/steigung"
+        android:layout_marginLeft="10dp"
+        android:text="Ja" />
+
+    <CheckBox
+        android:id="@+id/ohnesteigung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/steigung"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/mitsteigung"
+        android:text="Nein"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnfilter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Filter"/>
+</RelativeLayout>
